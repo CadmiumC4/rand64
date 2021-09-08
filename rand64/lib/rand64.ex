@@ -15,7 +15,7 @@ defmodule Rand64 do
   def hello do
     :world
   end
-  def rand64 do
-  	:crypto.strong_rand_bytes(64) |> Base.encode64
+  def rand64(len \\ 64) do
+  	:crypto.strong_rand_bytes(len) |> Base.encode64
   end
 end
