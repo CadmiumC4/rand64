@@ -7,7 +7,7 @@ defmodule Rand64.MixProject do
       version: "0.1.0",
       elixir: "~> 1.12",
       description: "Simple and stupid Elixir library for generating random strings.",
-      source_url: "https://github.com/CadmiumC4/rand64.git",
+      source_url: "https://github.com/CadmiumC4/rand64",
       package: [
       	name: "randomie64",
 	licenses: ["GPL-3.0-only"],
